@@ -13,7 +13,7 @@ Testing
 
 Tested with :
 
-OS - Fedora release 22 (Twenty Two)
-Firefox version - Mozilla Firefox 40.0.3
-Selenium - selenium-webdriver@2.46.0 
-Nodejs Version - 10.10.0
+OS - Fedora release 22 (Twenty Two).
+Firefox version - Mozilla Firefox 40.0.3.
+Selenium - selenium-webdriver@2.46.0.
+Nodejs Version - 10.10.0.
