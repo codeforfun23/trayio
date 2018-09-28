@@ -10,7 +10,7 @@ This code is used for implementing
 
 
 Testing
-
+=======
 Tested with :
 
 1. OS - Fedora release 22 (Twenty Two).
@@ -19,10 +19,12 @@ Tested with :
 4. Nodejs Version - 10.10.0.
 
 Running Script:
+===============
 
 /usr/local/n/versions/node/10.10.0/bin/node logintray.js
 
-How it works
+How it works:
+============
 
-I have added a bluejeans link which has a demo video.
-It is attached in the demo folder
+I have added a bluejeans link which has a demo video name traydemo.mp4.
+It is attached in the demo folder. 
