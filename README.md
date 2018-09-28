@@ -17,3 +17,11 @@ Tested with :
 2. Firefox version - Mozilla Firefox 40.0.3.
 3. Selenium - selenium-webdriver@2.46.0.
 4. Nodejs Version - 10.10.0.
+
+Running Script:
+
+/usr/local/n/versions/node/10.10.0/bin/node logintray.js
+
+How it works
+
+I have added a bluejeans link which has a demo video.
