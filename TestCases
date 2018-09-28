@@ -1,6 +1,10 @@
 Test Cases/ Implementation details:
 ==================================
 
+This needs to be tested with different browsers like safari, IE, Chrome, Firefox.
+Currently, I have provided support and tested for firefox.
+
+
 1. Managing timeout
 
 - How long to wait for website to open and monitoring connect/socket timeouts.

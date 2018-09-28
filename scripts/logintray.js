@@ -64,6 +64,22 @@ function search_name(){
 
 }
 
+function safari(){
+/** Hook for supporting safari browser and can be extended when needed
+*/
+}
+
+function internetExplorer(){
+/** Hook for supporting IE browser and can be extended when needed
+*/
+}
+
+function chrome(){
+/** Hook for supporting safari browser and can be extended when needed
+*/
+}
+
+
 function handleError(err) {
 	//NoSuchElementError: no such element - there is no selector information however
 	console.log('\nError with findElement', err.stack);
