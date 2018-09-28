@@ -1,0 +1,32 @@
+Test Cases/ Implementation details:
+==================================
+
+1. Managing timeout
+
+- How long to wait for website to open and monitoring connect/socket timeouts.
+- How long to wait for page reload and open.
+
+2. Finding elements
+
+- Finding elements on the webpage.
+- After clicking or pressing enter , how long to wait to get to next screen.
+- Finding elements based on id.
+- Finsing element based on class.
+- Finding element based on xpath and css.
+- How much time to wait while switching to different pages like login, create.
+login -- for logging into tray website
+create -- while creating a workflow.
+
+3. Handling exceptions like nosuchelement, elementnotvisible etc.
+
+4. While creating a workflow, it is observed not evertime a "stop" button is seen like it is mentioned in youtube video. 
+5. deleting a workflow once it is created.
+
+6. Deleting multiple workflows of same name if exists.
+7. Handling various exceptions differently. For few exceptions, if they occour we might exit program immediately, for few exceptions we prefer to run another piece of code before the next action since I don't have that workflow I have not included it but added hooks so that can be worked on later if we have such requirements.
+This can be easily done.
+
+8. Closing/Exiting session in case of exceptions and success.
+
+
+Note: I have added some sleep/wait so that what program is doing is visible to the reviewer also I am not sure what are the expected timeout's (connect/socket) range.This can be improved once we have more idea on expected timeout's part.Also, Timeout vary from OS versions. Example: For linux, it's 60s.
